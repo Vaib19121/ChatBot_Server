@@ -1,0 +1,19 @@
+{
+  "name": "openai-serverless",
+  "version": "1.0.0",
+  "description": "OpenAI Serverless",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "build": "node ./src/index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "openai": "^3.1.0"
+  },
+  "license": "ISC"
+}
